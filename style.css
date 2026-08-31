@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 15px;
+}
+ 
+.text {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: white;
+  white-space: pre;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
