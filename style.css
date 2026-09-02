@@ -45,3 +45,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.text a img {
+  filter: grayscale(100%);
+}
